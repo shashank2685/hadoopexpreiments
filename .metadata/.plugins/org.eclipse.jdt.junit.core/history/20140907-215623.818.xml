@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaxTemparatureMapperTest" project="WeatherInfoWithMRUNIT" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="v1.MaxTemparatureMapperTest" time="0.302">
+    <testcase name="returnsMaixmumIntergerInValues" classname="v1.MaxTemparatureMapperTest" time="0.254"/>
+    <testcase name="ignoreMissingTemperatureRecord" classname="v1.MaxTemparatureMapperTest" time="0.035"/>
+    <testcase name="parseValidRecord" classname="v1.MaxTemparatureMapperTest" time="0.013"/>
+  </testsuite>
+</testrun>

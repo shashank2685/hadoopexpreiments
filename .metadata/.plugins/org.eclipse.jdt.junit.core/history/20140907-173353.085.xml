@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="mrunit" project="mrunit" tests="400" started="400" failures="0" errors="0" ignored="0">
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestReducerInputValueReuse" time="0.283">
+    <testcase name="testReduce" classname="org.apache.hadoop.mrunit.mapreduce.TestReducerInputValueReuse" time="0.283"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestCounters" time="0.078">
+    <testcase name="testMapper" classname="org.apache.hadoop.mrunit.TestCounters" time="0.033"/>
+    <testcase name="testReducer" classname="org.apache.hadoop.mrunit.TestCounters" time="0.014"/>
+    <testcase name="testMapReduce" classname="org.apache.hadoop.mrunit.TestCounters" time="0.013"/>
+    <testcase name="testPipeline" classname="org.apache.hadoop.mrunit.TestCounters" time="0.018"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.016">
+    <testcase name="shouldContinueAfterAssertIfNoErrors" classname="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.001"/>
+    <testcase name="shouldThrowExceptionOnAssertWhenAnyRecordedError" classname="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.001"/>
+    <testcase name="shouldLogRecordedError" classname="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.006"/>
+    <testcase name="shouldUseLiteralMessageWhenNoArguments" classname="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.002"/>
+    <testcase name="shouldBuildAssertionErrorMessageWithRecordedErrors" classname="org.apache.hadoop.mrunit.internal.util.TestErrors" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.205">
+    <testcase name="testRoot" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.172"/>
+    <testcase name="testFile" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.0"/>
+    <testcase name="testPath" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.006"/>
+    <testcase name="testFileName" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.001"/>
+    <testcase name="testCopyResource" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.005"/>
+    <testcase name="testCopyResourceNested" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.001"/>
+    <testcase name="testGetDefaultConfiguration" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.012"/>
+    <testcase name="testOverridePathProperties" classname="org.apache.hadoop.mrunit.testutil.TestTemporaryPath" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.internal.mapred.TestMockReporter" time="0.002">
+    <testcase name="testGetInputSplitForMapper" classname="org.apache.hadoop.mrunit.internal.mapred.TestMockReporter" time="0.0"/>
+    <testcase name="testGetInputSplitForReducer" classname="org.apache.hadoop.mrunit.internal.mapred.TestMockReporter" time="0.002"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.internal.io.TestSerialization" time="0.034">
+    <testcase name="testClassWithoutNoArgConstructor" classname="org.apache.hadoop.mrunit.internal.io.TestSerialization" time="0.013"/>
+    <testcase name="testChangeStateOfCopyArgument" classname="org.apache.hadoop.mrunit.internal.io.TestSerialization" time="0.007"/>
+    <testcase name="testDontChangeStateOfCopyArgument" classname="org.apache.hadoop.mrunit.internal.io.TestSerialization" time="0.007"/>
+    <testcase name="testCopyExceptionIfNoSerializer" classname="org.apache.hadoop.mrunit.internal.io.TestSerialization" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.058">
+    <testcase name="testSortAndGroupWithOneComparator" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.008"/>
+    <testcase name="testEmptySortAndGroup" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+    <testcase name="testSingleSortAndGroup" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.007"/>
+    <testcase name="testSortAndGroupOneKey" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+    <testcase name="testMultiSortAndGroup1" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+    <testcase name="testMultiSortAndGroup2" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.007"/>
+    <testcase name="testSortAndGroupWithTwoComparators" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+    <testcase name="testUpdateInput" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+    <testcase name="testUpdateAll" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceFeeder" time="0.006"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestStatefulMapReduce" time="0.028">
+    <testcase name="testClosedFormMapReduce" classname="org.apache.hadoop.mrunit.mapreduce.TestStatefulMapReduce" time="0.028"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.268">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.01"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.008"/>
+    <testcase name="testTestRun" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.008"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.0"/>
+    <testcase name="testNoInputForMapper" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.013"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testIdentityCombiner" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testLongSumCombiner" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.008"/>
+    <testcase name="testLongSumCombinerAndIdentityReducer" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testComparators" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.008"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.001"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.011"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.014"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.008"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.013"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.013"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.057"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.019"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testGroupComparatorBehaviorFirst" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testGroupComparatorBehaviorSecond" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testGroupingComparatorSpecifiedByConf" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.009"/>
+    <testcase name="testUseOfWritableRegisteredComparator" classname="org.apache.hadoop.mrunit.TestMultipleInputsMapReduceDriver" time="0.01"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.298">
+    <testcase name="testEmptySortAndGroup" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.0"/>
+    <testcase name="testSingleSortAndGroup" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.01"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.001"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.005"/>
+    <testcase name="testIdentityCombiner" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.011"/>
+    <testcase name="testLongSumCombiner" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.011"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.016"/>
+    <testcase name="testComparators" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.005"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.011"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.01"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.011"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.027"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.015"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testUseOfWritableRegisteredComparator" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testSortAndGroupOneKey" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testMultiSortAndGroup1" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testMultiSortAndGroup2" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.009"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testConfiguration" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testLongSumCombinerAndIdentityReduce" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testGroupingComparatorBehaviour1" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testGroupingComparatorBehaviour2" classname="org.apache.hadoop.mrunit.mapreduce.TestMapReduceDriver" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.019">
+    <testcase name="testEmptyShuffle" classname="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.0"/>
+    <testcase name="testSingleShuffle" classname="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.005"/>
+    <testcase name="testShuffleOneKey" classname="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.005"/>
+    <testcase name="testMultiShuffle1" classname="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.004"/>
+    <testcase name="testMultiShuffle2" classname="org.apache.hadoop.mrunit.TestMapOutputShuffler" time="0.005"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.205">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.005"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.005"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.001"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.004"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.005"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.01"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.011"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun4" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun4OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testTestRun5" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun5OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testTestRun6" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testTestRun6OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun7" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun7OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testSetInput" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.011"/>
+    <testcase name="testSetInputNull" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.0"/>
+    <testcase name="testInputSplitDetails" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="textMockContext" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testWithTaskAttemptUse" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+    <testcase name="testConfiguration" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.007"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMapDriver" time="0.006"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestMapDriver" time="0.218">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.0"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.006"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.006"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.007"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.008"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testTestRun4" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun4OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun5" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun5OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun6" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun6OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun7" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun7OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testSetInput" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.003"/>
+    <testcase name="testSetInputNull" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.0"/>
+    <testcase name="testTestRun5Comparator" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun6Comparator" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun8OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testUnexpectedOutput" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testUnexpectedOutputMultiple" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.006"/>
+    <testcase name="testUnexpectedOutputMultipleComparator" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testUnexpectedOutputOrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testUnexpectedOutputMultipleOrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testWithCounterUsingRunMethodPerformingCounterChecking" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testWithCounterUsingRunMethodExplicitIgnoreCounterChecking" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testWithCounterUsingRunMethodImplicitIgnoreCounterChecking" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testNonTextWritableWithInputFromString" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testNonTextWritableKeyWithOutputFromString" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testNonTextWritableValueWithOutputFromString" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testMultipleWithInput" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.004"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.006"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.007"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.TestMapDriver" time="0.005"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.143">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.001"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testIdentityCombiner" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.005"/>
+    <testcase name="testLongSumCombiner" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.006"/>
+    <testcase name="testComparators" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.005"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.012"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.006"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.006"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.006"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.006"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.005"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testGroupingComparatorSpecifiedByConf" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.007"/>
+    <testcase name="testUseOfWritableRegisteredComparator" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testDuplicateOutputOrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.002"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.002"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testLongSumCombinerAndIdentityReduce" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.004"/>
+    <testcase name="testGroupingComparatorBehaviour1" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.003"/>
+    <testcase name="testGroupingComparatorBehaviour2" classname="org.apache.hadoop.mrunit.TestMapReduceDriver" time="0.01"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.507">
+    <testcase name="screwYou" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.037"/>
+    <testcase name="TestMapDriver" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.318"/>
+    <testcase name="TestMapDriverWithPathOutput" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.026"/>
+    <testcase name="TestMapDriverNullKey" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.021"/>
+    <testcase name="TestReduceDriver" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.038"/>
+    <testcase name="TestMapDriverMissingExpectedOutput" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.016"/>
+    <testcase name="TestMapDriverUnexpectOutput" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.013"/>
+    <testcase name="TestMapDriverUnexpectOutputValue" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.012"/>
+    <testcase name="TestReduceDriverWithPathOutput" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.013"/>
+    <testcase name="TestObjectReuese" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleOutput" time="0.013"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestWordCount" time="0.023">
+    <testcase name="TestRun" classname="org.apache.hadoop.mrunit.mapreduce.TestWordCount" time="0.01"/>
+    <testcase name="TestMapDriver" classname="org.apache.hadoop.mrunit.mapreduce.TestWordCount" time="0.006"/>
+    <testcase name="TestReduceDriver" classname="org.apache.hadoop.mrunit.mapreduce.TestWordCount" time="0.006"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.types.TestPair" time="0.003">
+    <testcase name="testEqualsTrulyEqual" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testEqualsInequalFirst" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testEqualsInequalSecond" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToTrulyEqual" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.001"/>
+    <testcase name="testCompareToInequalFirst" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToInequalSecond" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullNull" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullIntFirst0" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullIntFirst1" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.001"/>
+    <testcase name="testCompareToNullIntFirst2" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullIntSecond0" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullIntSecond1" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.0"/>
+    <testcase name="testCompareToNullIntSecond2" classname="org.apache.hadoop.mrunit.types.TestPair" time="0.001"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.005">
+    <testcase name="shouldFormatPairListWhenEmpty" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="shouldFormatPairListWithSingleElement" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="shouldFormatPairListWithManyElement" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair1" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair2" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.001"/>
+    <testcase name="testParseTabbedPair3" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair4" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair5" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair6" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair7" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseTabbedPair8" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList1" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList2" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList3" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList4" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.001"/>
+    <testcase name="testParseCommaDelimList5" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList6" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList7" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList8" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.001"/>
+    <testcase name="testParseCommaDelimList8a" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList9" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="testParseCommaDelimList10" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="shouldFormatValueListWhenEmpty" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="shouldFormatValueListWithSingleElement" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.0"/>
+    <testcase name="shouldFormatValueListWithManyElement" classname="org.apache.hadoop.mrunit.internal.util.TestStringUtils" time="0.001"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestDistributedCache" time="0.167">
+    <testcase name="testAddCacheFileToMapperUsingDriverMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.014"/>
+    <testcase name="testAddCacheFileToMapperUsingStaticMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.019"/>
+    <testcase name="testAddCacheArchiveToMapperUsingDriverMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.026"/>
+    <testcase name="testAddCacheArchiveWithInvalidExtension" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.015"/>
+    <testcase name="testAddCacheFileToReducerUsingDriverMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.025"/>
+    <testcase name="testAddCacheFileToReducerUsingStaticMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.017"/>
+    <testcase name="testAddCacheArchiveToReducerUsingDriverMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.017"/>
+    <testcase name="testAddCacheArchiveToMapReduceUsingDriverMethod" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.018"/>
+    <testcase name="testAddCacheArchiveToMapReduceUsingDriverMethod2" classname="org.apache.hadoop.mrunit.TestDistributedCache" time="0.016"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.internal.mapred.TestMockOutputCollector" time="0.005">
+    <testcase name="testRepeatedObjectUse" classname="org.apache.hadoop.mrunit.internal.mapred.TestMockOutputCollector" time="0.005"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestConfigureClose" time="0.011">
+    <testcase name="testMapperConfigureClose" classname="org.apache.hadoop.mrunit.TestConfigureClose" time="0.004"/>
+    <testcase name="testReducerConfigureClose" classname="org.apache.hadoop.mrunit.TestConfigureClose" time="0.007"/>
+  </testsuite>
+  <testcase name="no tests in this class" classname="org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl" incomplete="true"/>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.23">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.012"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.009"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.009"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.011"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.01"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.011"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.01"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.007"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.01"/>
+    <testcase name="testTestRun4" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun4OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun5" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.006"/>
+    <testcase name="testTestRun5OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun6" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun6OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun7" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun7OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="textMockContext" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testWithTaskAttemptUse" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.009"/>
+    <testcase name="testTestRun8OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.004"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testConfiguration" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.009"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.009"/>
+    <testcase name="testTestRun2OrderInsensitive" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testTestRun8" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.005"/>
+    <testcase name="testAddAllElements" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.004"/>
+    <testcase name="testDoubleIteration" classname="org.apache.hadoop.mrunit.mapreduce.TestReduceDriver" time="0.01"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.06">
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.001"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.0"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.0"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.006"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.003"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testEmptyPipeline" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.003"/>
+    <testcase name="testSingleIdentity" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.003"/>
+    <testcase name="testMultipleIdentities" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testSumAtEnd" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+    <testcase name="testSumAtEndWithInputAddAll" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.005"/>
+    <testcase name="testSumInMiddle" classname="org.apache.hadoop.mrunit.TestPipelineMapReduceDriver" time="0.004"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.TestExample" time="0.003">
+    <testcase name="testIdentityMapper" classname="org.apache.hadoop.mrunit.TestExample" time="0.003"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.147">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testTestRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.0"/>
+    <testcase name="testNoInputForMapper" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.003"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.002"/>
+    <testcase name="testIdentityCombiner" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testLongSumCombiner" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testLongSumCombinerAndIdentityReducer" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testComparators" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testNoMapper" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.0"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testWithFailedCounter" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.009"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testMapInputFile" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.004"/>
+    <testcase name="testGroupComparatorBehaviorFirst" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.006"/>
+    <testcase name="testGroupComparatorBehaviorSecond" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.013"/>
+    <testcase name="testGroupingComparatorSpecifiedByConf" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.007"/>
+    <testcase name="testUseOfWritableRegisteredComparator" classname="org.apache.hadoop.mrunit.mapreduce.TestMultipleInputsMapReduceDriver" time="0.005"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.102">
+    <testcase name="testAddCacheFileToMapperUsingDriverMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.008"/>
+    <testcase name="testAddCacheFileToMapperUsingStaticMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.012"/>
+    <testcase name="testAddCacheArchiveToMapperUsingDriverMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.013"/>
+    <testcase name="testAddCacheArchiveWithInvalidExtension" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.009"/>
+    <testcase name="testAddCacheFileToReducerUsingDriverMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.009"/>
+    <testcase name="testAddCacheFileToReducerUsingStaticMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.011"/>
+    <testcase name="testAddCacheArchiveToReducerUsingDriverMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.012"/>
+    <testcase name="testAddCacheArchiveToMapReduceUsingDriverMethod" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.013"/>
+    <testcase name="testAddCacheArchiveToMapReduceUsingDriverMethod2" classname="org.apache.hadoop.mrunit.mapreduce.TestDistributedCache" time="0.015"/>
+  </testsuite>
+  <testcase name="no tests in this class" classname="org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl" incomplete="true"/>
+  <testsuite name="org.apache.hadoop.mrunit.TestReduceDriver" time="0.106">
+    <testcase name="testRun" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testUncomparable" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testAddAll" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testNoInput" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.0"/>
+    <testcase name="testNoReducer" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testRepeatRun" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounter" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndEnumCounterMissing" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.004"/>
+    <testcase name="testWithCounterAndStringCounterMissing" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.004"/>
+    <testcase name="testJavaSerialization" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testCopy" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testOutputFormat" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.005"/>
+    <testcase name="testOutputFormatWithMismatchInOutputClasses" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.004"/>
+    <testcase name="testTestRun4" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun4OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun5" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun5OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun6" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun6OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun7" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun7OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun8OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testDuplicateOutputOrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun1" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun2" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun3" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun3OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndNoneMissing" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun2OrderInsensitive" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun8" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testDoubleIteration" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testTestRun3ComparatorOK" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testTestRun3ComparatorFail" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterMultipleInput" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndNoneMissingMultipleInput" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithCounterAndEnumCounterMissingMultipleInput" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+    <testcase name="testWithCounterAndStringCounterMissingMultipleInput" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.003"/>
+    <testcase name="testWithFailedEnumCounter" classname="org.apache.hadoop.mrunit.TestReduceDriver" time="0.002"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.mapreduce.TestCounters" time="0.009">
+    <testcase name="testMapper" classname="org.apache.hadoop.mrunit.mapreduce.TestCounters" time="0.002"/>
+    <testcase name="testReducer" classname="org.apache.hadoop.mrunit.mapreduce.TestCounters" time="0.004"/>
+    <testcase name="testMapReduce" classname="org.apache.hadoop.mrunit.mapreduce.TestCounters" time="0.003"/>
+  </testsuite>
+  <testsuite name="org.apache.hadoop.mrunit.types.TestKeyValueReuseList" time="0.006">
+    <testcase name="testValueIterator" classname="org.apache.hadoop.mrunit.types.TestKeyValueReuseList" time="0.004"/>
+    <testcase name="testClone" classname="org.apache.hadoop.mrunit.types.TestKeyValueReuseList" time="0.002"/>
+  </testsuite>
+</testrun>

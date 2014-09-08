@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaxTemperatureMapperTest" project="ch05" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="v5.MaxTemperatureMapperTest" time="0.23">
+    <testcase name="parsesMissingTemperature" classname="v5.MaxTemperatureMapperTest" time="0.163"/>
+    <testcase name="parsesMalformedTemperature" classname="v5.MaxTemperatureMapperTest" time="0.005"/>
+    <testcase name="parsesValidRecord" classname="v5.MaxTemperatureMapperTest" time="0.062"/>
+  </testsuite>
+</testrun>
